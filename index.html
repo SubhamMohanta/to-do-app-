@@ -11,12 +11,25 @@
     <img
       src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/todo-app-bot.png"
     />
+
+    <button id="reset">RESET</button>
     <div class="container">
       <div class="form">
         <input type="text" id="input" />
         <button id="button">Add</button>
       </div>
-      <ul id="todolist"></ul>
+      <ul id="todolist">
+        <li>
+          <!-- <div id="item">
+            <div>Hello</div>
+            <div> 
+              <span onclick="deleteItem(i)">&bull;</span>
+              <span>|</span>
+              <span onclick="deleteItem(i)">Edit</span>
+            </div>
+          </div> -->
+        </li>
+      </ul>
     </div>
     <script src="./app.js"></script>
   </body>
